@@ -58,11 +58,12 @@ function App() {
                     <p>Codelândia</p>
                     <p>blog</p>
                 </nav>
-                <img src={lupa} alt="lupa" className="lupa"/>
+                <div className='pesquisa'>
+                  <img src={lupa} alt="lupa" className="lupa"/>
 
-                <input type="text" onChange={(ev) => setBusca(ev.target.value)} 
-                value={busca} placeholder="Peesquisar no blog" />
-
+                  <input type="text" onChange={(ev) => setBusca(ev.target.value)} 
+                  value={busca} placeholder="Pesquisar no blog" />
+                </div>
             </div>
         </header>
         <main>
