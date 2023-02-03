@@ -17,7 +17,7 @@ header{
 }
 
 .menu{
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -62,7 +62,7 @@ main{
 }
 
 section{
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -107,4 +107,19 @@ li{
   font-size: 14px;
   margin-bottom: 10px;
   font-family: 'Lexend Deca', sans-serif;
+}
+
+
+/*Responsivo */
+@media (max-width: 1024px) {
+  .menu{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  section{
+    width: 90%;
+    margin: 0 auto;
+  }
+
 }
